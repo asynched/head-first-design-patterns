@@ -6,6 +6,11 @@ package src.strategy.examples.entities;
 public abstract class Entity {
   protected String name;
 
+  /**
+   * Constructor for a generic entity
+   * 
+   * @param name The name of the entity
+   */
   public Entity(String name) {
     this.name = name;
   }
