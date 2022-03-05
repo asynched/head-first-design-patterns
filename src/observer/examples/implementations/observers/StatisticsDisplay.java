@@ -3,10 +3,10 @@ package src.observer.examples.implementations.observers;
 import java.util.ArrayList;
 
 import src.observer.examples.dataclasses.Temperature;
-import src.observer.examples.implementations.IDisplay;
+import src.observer.examples.implementations.IDisplayable;
 import src.observer.examples.observers.IObserver;
 
-public class StatisticsDisplay implements IObserver<Temperature>, IDisplay {
+public class StatisticsDisplay implements IObserver<Temperature>, IDisplayable {
   private ArrayList<Temperature> temperatures;
 
   public StatisticsDisplay() {

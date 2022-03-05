@@ -1,5 +1,5 @@
 package src.observer.examples.implementations;
 
-public interface IDisplay {
+public interface IDisplayable {
   void display();
 }

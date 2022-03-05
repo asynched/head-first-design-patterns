@@ -1,10 +1,10 @@
 package src.observer.examples.implementations.observers;
 
 import src.observer.examples.dataclasses.Temperature;
-import src.observer.examples.implementations.IDisplay;
+import src.observer.examples.implementations.IDisplayable;
 import src.observer.examples.observers.IObserver;
 
-public class CurrentConditionsDisplay implements IObserver<Temperature>, IDisplay {
+public class CurrentConditionsDisplay implements IObserver<Temperature>, IDisplayable {
   private Temperature temperature;
 
   @Override
